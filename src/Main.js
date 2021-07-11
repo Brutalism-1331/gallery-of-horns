@@ -1,12 +1,17 @@
 import React from 'react';
 import HornedBeast from './HornedBeast.js';
 
+
+
 class Main extends React.Component {
-  render () {
+  render() {
     return (
       <>
-      <h1>MAIN</h1>
-      <HornedBeast />
+        <HornedBeast
+          title="TESTTEST"
+          alt= {'Hannya Mask One'}
+          image= {require('./images')} />
+        />
       </>
     )
   }
